@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Caveat:wght@400..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Courgette&family=Gloria+Hallelujah&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --LIGHT:rgb(235, 232, 232);
+}
+.logo img{
+   height:30px;
+   width:auto;
+}
+.top{
+   
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.center input{
+    width:500px;
+    height:40px;
+    border:1px solid gray;
+    border-radius: 40px 0 0 40px;
+}
+.center button{
+    width:80px;
+    height:40px;
+    border:1px solid gray;
+    border-radius:0 40px 40px 0;
+    border-left:none;
+}
+.mic{ 
+    margin-left: 40px;
+    background-color:var(--LIGHT);
+    border-radius: 50%;
+    padding:5px;
+}
+.end{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    font-size: 1.5rem;
+}
+.end button{
+    border:none;
+}
+.end button:first-child{
+    background-color: var(--LIGHT);
+    font-size: 1.2rem;
+    padding:5px;
+    border-radius:40px;
+}
+.end button:nth-child(2),.end button:nth-child(3){
+    background-color: transparent;
+}
+.topic{
+    padding:10px;
+    display: flex;
+    gap:20px;
+    font-family:"Roboto", serif;
+}
+.topic a{
+    text-decoration: none;
+    color:black;
+    background-color: var(--LIGHT);
+    padding:5px 15px;
+    border-radius:40px;
+}
+.topic a:first-child{
+    background-color: black;
+    color:white;
+}
+.shor img{
+    width:30px;
+    height:auto;
+}
+.aside{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content:flex-start;
+    align-items:center;
+    font-size:10px;
+    
+}
+.container{
+    display:flex;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside img{
+    width:20px;
+}
+.bar{
+    margin-top: 20px;
+}
+.mainc{
+    width:100%;
+}
+.content{
+    width:100%;
+    background-color: gray;
+}
+main{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    min-height: 100vh;
+    background-color: gainsboro;
+}
+.thum img{
+    width:400px;
+    height:auto;
+    border-radius:15px;
+}
+.card-container{
+    padding:10px;
+    font-family: "Roboto", serif;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.info img{
+  width:35px;
+  height:35px;
+  border-radius:35px;
+}
+
+.subs{
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
